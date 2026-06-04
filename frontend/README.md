@@ -1,32 +1,85 @@
-# Real-Time Agentic Fraud Detection System
+# 🛡️ Agentic Fraud Detection System
 
-## Overview
-An AI-powered fraud detection platform built using FastAPI, Streamlit, SQLite, and Machine Learning.
+An AI-powered fraud detection platform that analyzes transactions in real time using Machine Learning, FastAPI, SQLite, and Streamlit.
 
-## Features
+## 🚀 Features
+
 - Real-time fraud prediction
-- AI investigation reports
+- AI-generated investigation reports
+- FastAPI REST API
+- SQLite transaction storage
+- Interactive Streamlit dashboard
+- Fraud vs Legitimate analytics
 - Transaction history tracking
-- Analytics dashboard
-- REST API with Swagger documentation
-- SQLite database storage
+- Risk assessment recommendations
 
-## Tech Stack
+## 🏗️ Architecture
+
+User Input
+↓
+Streamlit Dashboard
+↓
+FastAPI Backend
+↓
+Machine Learning Model
+↓
+SQLite Database
+↓
+Investigation Report
+
+## 🛠️ Tech Stack
+
 - Python
 - FastAPI
 - Streamlit
-- Scikit-learn
+- Scikit-Learn
 - SQLite
 - Pandas
 - Plotly
 
-## Architecture
-Streamlit → FastAPI → ML Model → SQLite
+## 📂 Project Structure
 
-## Screenshots
-(Add screenshots here)
+```bash
+agentic-fraud-detection/
+│
+├── backend/
+│   └── main.py
+│
+├── database/
+│   ├── db.py
+│   └── models.py
+│
+├── frontend/
+│   └── app.py
+│
+├── models/
+│   └── fraud_model.pkl
+│
+├── train_model.py
+├── requirements.txt
+└── README.md
+```
 
-## Run
-uvicorn backend.main:app --reload
+## ⚡ API Endpoints
 
-streamlit run frontend/app.py
+### Predict Fraud
+
+POST /predict
+
+### Transaction History
+
+GET /transactions
+
+## 📊 Dashboard
+
+- Transaction Analysis
+- Fraud Probability
+- Investigation Report
+- Historical Trends
+- Fraud Distribution Chart
+
+## 👨‍💻 Author
+
+Samarth Sharma
+
+Artificial Intelligence & Data Science Student
